@@ -8,10 +8,10 @@
 
 body{
     width: 100%;
-    background-color: rgb(244, 230, 230);
     box-sizing: border-box;
+    /* background-color: black ; */
 }
-
+/*header*/
 .first{
     width: 100%;
     height: 70px;
@@ -212,11 +212,44 @@ body{
     display: flex;
 }
 
+/*end header*/
 
 
+/* dark mode */
+.background {
+    background-color: white;
+    color: black;
+    
+}
+.myDark {
+    background-color: black;
+    color: white;
+    
+}
 
 
+/* coupon code */
+#coupon {
+    height: 400px;
+    width: 65%;
+    margin-left: 18%;
+    position: absolute;
+    z-index: 100;
+    margin-top: -26%;
+    visibility: visible;
+}
 
+#coupon img {
+    height: 650px;
+    width: 100%;
+}
+
+#coupon button {
+    font-size: 20px;
+    width: 40px;
+    z-index: 100;
+    position: absolute;
+}
 
 
 
@@ -233,7 +266,7 @@ body{
     background: linear-gradient(to bottom, var(--clr-bodyGradient), var(--clr-bodyGradientEnd)) !important;
     position: absolute;
     z-index: 1;
-    top: 400px;
+    
 }
 
 #col {
@@ -248,7 +281,7 @@ body{
     padding: 0 2%;
     margin-bottom: 15px;
     background: var(--background);
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 
 .row {
