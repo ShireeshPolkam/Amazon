@@ -28,6 +28,7 @@ body{
     padding: 5px 10px;
     border: 1px solid transparent;
     border-radius: 3px;
+    margin-top: 12px;
 }
 .first{
     display: flex;
@@ -55,10 +56,11 @@ body{
 .map i{
     margin-top: 17px;
     padding-left: 5px;
-    font-size: 17px;
+    font-size: 24px;
+    margin-right: 10px;
 }
 .map div{
-    padding: 5px;
+    padding: 2px;
     display: flex;
     cursor: pointer;
     flex-direction: column;
@@ -430,4 +432,49 @@ body{
     background-position-x: 50% !important;
 }
 
+//*footer*//
+
+footer {
+    margin-top: 30px;
+}
+
+
+
+.copyright {
+    display: inline-block;
+    background:;
+    padding: 10px 10px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.footercontent {
+
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: clamp(0.1rem, 3vw, 0.8rem);
+
+}
+
+.footercontent>span:nth-child(2) {
+    position: relative;
+    font-size: clamp(0.1rem, 3vw, 0.8rem);
+    text-align: center;
+}
+
+.footercontent>span>b,
+u {
+    font-size: 15px;
+    font-weight: 600;
+}
 
