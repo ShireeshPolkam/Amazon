@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "product_name": "Logitech Gaming Mouse",
+        "category": "Electronics",
+        "category_id": 1,
+        "Price": 5999,
+        "Size": "Small",
+        "Image": "https://m.media-amazon.com/images/I/61CqLgubwoL._SY450_.jpg",
+        "Color": "Black",
+        "Brand": "LogiTech"
+    },
+    {
+        "id": 2,
+        "product_name": "Max Men's Regular Fit T-Shirt",
+        "category": "Fashion",
+        "category_id": 2,
+        "Price": 299,
+        "Size": "Medium",
+        "Image": "https://m.media-amazon.com/images/I/61LDQS+RUkL._UX522_.jpg",
+        "Color": "White",
+        "Brand": "Max"
+    },
+    {
+        "id": 3,
+        "product_name": "Dark Fantasy Choco Fills,",
+        "category": "Fresh",
+        "category_id": 3,
+        "Price": 199,
+        "Image": "https://m.media-amazon.com/images/I/81oH1Un2xdL._SX522_.jpg", 
+        "company": "Sunfeast"
+    },
+    {
+        "id": 4,
+        "product_name": "Apple iPhone 14 Pro",
+        "category": "Mobiles",
+        "category_id": 4,
+        "Price": 99999,
+        "Image":"https://m.media-amazon.com/images/I/61XO4bORHUL._SX522_.jpg",
+        "Color": "Black",
+        "company": "Apple"
+    },
+    {
+        "id": 5,
+        "product_name": "boAt TWS Gaming Earbuds",
+        "category": "Today’s Deals",
+        "category_id": 5,
+        "Price": 1499,
+        "Image":"https://m.media-amazon.com/images/I/61q-2yzbBtL._AC_SX410_SY308_.jpg",
+        "Color": "Black",
+        "company": "Apple"
+    }
+]

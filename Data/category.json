@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "category": "Electronics"
+    },
+    {
+        "id":2,
+        "category":"Fashion"
+    },
+    {
+        "id":3,
+        "category":"Fresh"
+    },
+    {
+        "id":4,
+        "category":"Mobiles"
+    },
+    {
+        "id":5,
+        "category": "Today’s Deals"
+    }
+]
